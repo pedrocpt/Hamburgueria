@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: runner.HamburgueriaRun
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.472 s <<< FAILURE! -- in runner.HamburgueriaRun
+Pedido de hambúrguer.Cliente pede um hambúrguer que não existe -- Time elapsed: 0.008 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Desculpe, o hambúrguer não está disponível]> but was:<[Pedido confirmado: X-Salada]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at steps.PedidoSteps.o_sistema_deve_informar_que_o_hamburguer_nao_esta_disponivel(PedidoSteps.java:34)
+	at ✽.o sistema deve informar que o hambúrguer não está disponível(file:///C:/Users/422210516/Documents/NetBeansProjects/hamburgueria1/src/test/resources/pedido.feature:13)
+
